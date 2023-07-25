@@ -66,7 +66,7 @@ export default function Card() {
 
   return (
     <div>
-      <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
+      <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         {/* https://mui.com/material-ui/react-card/ */}
         <Box sx={{ minWidth: 275 }}>
           <MuiCard variant="outlined">{frontCard}</MuiCard>
